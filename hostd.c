@@ -1,5 +1,3 @@
-/*Group 2: PA5 HOST Dispatcher*/
-
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -41,6 +39,11 @@ int main(int argc, char** argv){
 
         return 0;
 }
+
+
+/*****************************************************/
+/* Koushik Peri - Start of the code I worked on here */
+/*****************************************************/
 
 void zeroMemory(int s, int e){
 	int i;
@@ -625,7 +628,9 @@ void exec_up(process_t* it){
 	}
 	printf("\n");
 }
-
+/*****************************************************/
+/* Koushik Peri - End of the code that I worked on   */
+/*****************************************************/
 
 //Parse in the dispatch file and save into array of proc structs
 void parse_input_process_list(char *filename){
