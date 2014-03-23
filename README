@@ -1,6 +1,6 @@
 Date Created: March 22, 2014
 Author: Koushik Peri
 
-Description:  This directory contains the code for a host dispatcher written in C that was done as a group project for my operating systems class. Since this was a group project, I have highlighed my specific contributions in the main, hostd.c file, by placing my code between comments with my name in them. Search for the string "Koushik Peri" to find these comments
+Description:  This directory contains a solution to the classic host dispatcher problem written in C that was done as a group project for my operating systems class. Since this was a group project, I have highlighed my specific contributions in the main, hostd.c file, by placing my code between comments with my name in them. Search for the string "Koushik Peri" to find these comments
 
 Comments: My approach for solving this problem was a simplistic one that utilized basic algorithms for my process scheduling and my memory allocation and eviction algorithms. For example, when trying to allocate memory, my algorithm will try to find the first contiguos block of memory for a process and if it doesn't find it, the process will be resubmitted into the priorty queue. The reason why I made this design decision was because of project requirements, and because the performance tradeoff was not worth the additional time and complexity that would have been introduced if my memory algorithm made smart choices when allocating memory blocks.
